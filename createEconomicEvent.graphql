@@ -1,0 +1,17 @@
+mutation MyMutation {
+  createEconomicEvent(
+    event: {
+      action: "raise"
+      provider: "uhCAkpd1MaylZYBpKRmY_smYBau8uo1VF6qTxr5RXEXYfyQzO58pH:uhC0k646zXkQKNvC0vhEkQxW-iGgoILG4-QtrdUyDNdzoCbRkOMXO"
+      receiver: "uhCAkpd1MaylZYBpKRmY_smYBau8uo1VF6qTxr5RXEXYfyQzO58pH:uhC0k646zXkQKNvC0vhEkQxW-iGgoILG4-QtrdUyDNdzoCbRkOMXO"
+      resourceClassifiedAs: "https://test.peanut"
+      resourceQuantity: { hasNumericalValue: 1.5 }
+      hasPointInTime: "2016-07-20T17:30:15+05:30"
+      inScopeOf: "test"
+    }
+  ) {
+    economicEvent {
+      id
+    }
+  }
+}
