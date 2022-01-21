@@ -1,6 +1,9 @@
 [workspace]
 
 members= [
+  # Runner
+  "holochain-runner",
+
 	# Core framework
 
   "lib/hdk_relay_pagination",
