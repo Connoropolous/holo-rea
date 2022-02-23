@@ -153,3 +153,6 @@ members= [
 	"zomes/dna_auth_resolver",
   # "zomes/social_triangulation",
 ]
+
+[patch.crates-io]
+hdk = {git = "https://github.com/holochain/holochain", rev = "hdk-0.0.122", package = "hdk"}
